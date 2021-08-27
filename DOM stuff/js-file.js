@@ -16,7 +16,6 @@ const div = document.createElement('div');
 div.appendChild(h1, p1);
 div.style.cssText = 'color: blue; background: white';        
 
-
 const btn = document.querySelector('#btn');
 btn.addEventListener('click', () => {
   alert("Hello World");
