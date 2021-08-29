@@ -1,17 +1,19 @@
 function computerPlay() {
-   var choices = ['Rock', 'Scissors', 'Paper']; 
+    let choices = ['Rock', 'Scissors', 'Paper'];
 
-   var randomChoice = choices[Math.floor(Math.random() * choices.length)];
+    let randomChoice = choices[Math.floor(Math.random() * choices.length)];
 
-   return randomChoice;
+    return randomChoice;
 }
 
-function playRound (playerSelection, computerSelection) {
+function playRound(playerSelection, computerSelection) {
+    let playerSelection = prompt("What do you choose?")
+    let computerSelection = computerPlay();
+
+    console.log('You picked: ' + playerSelection.toUpperCase())
 
 
-    
 }
 
-const playerSelection = "rock"
-const computerSelection = computerPlay();
+
 console.log(playRound(playerSelection, computerSelection));
