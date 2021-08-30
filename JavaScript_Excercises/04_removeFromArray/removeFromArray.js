@@ -1,4 +1,5 @@
 const removeFromArray = function(...values) {
+    //first value in spread operator is the array we argument
     const array = values[0];
     // create a new empty array
     const newArray = [];
